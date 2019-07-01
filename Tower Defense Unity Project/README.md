@@ -1,4 +1,12 @@
-Made using Unity Engine 2018.2.0f2
+Important Information:
+---------------------
+
+-	The music used is owned by Sam Packer. One of which being a cover of the song Home – Resonance.
+-	The original game is from a tutorial found here: https://www.youtube.com/watch?v=beuoNuK2tbk
+-	The completed tutorial game can be found here: https://github.com/Brackeys/Tower-Defense-Tutorial
+-	MusicalityTD VR is a converted version of the completed tutorial game. 
+-	The game was created using Unity version 2018.2.0f2.
+
 
 Controls:
 ---------
