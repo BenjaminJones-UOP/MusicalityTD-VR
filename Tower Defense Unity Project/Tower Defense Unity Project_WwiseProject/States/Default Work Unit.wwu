@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65C62253-00C6-46D6-ABC1-63EA435BD3FA}" SchemaVersion="85">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{65C62253-00C6-46D6-ABC1-63EA435BD3FA}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="LevelVol" ID="{716A1C5A-35D5-4AFC-B233-47A721F614D1}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A41AC6E1-38D6-4543-BE0D-5018BB95B562}"/>
+						<State Name="Level1" ID="{EF72138C-7A3A-4612-B227-BA872423AF51}"/>
+						<State Name="Level2" ID="{9D5E1B01-70BD-4BB8-B7D6-A89931C000AF}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

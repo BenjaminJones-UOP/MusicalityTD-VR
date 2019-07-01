@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{6B27F319-C680-02F2-FAAC-848D9615D0B1}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Turret.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Enemy.cs" Line="38" Column="4" />
+      <File FileName="Assets/Scripts/NodeUI.cs" Line="44" Column="6" />
+      <File FileName="Assets/Scripts/BuildManager.cs" Line="18" Column="31" />
+      <File FileName="Assets/Scripts/PlayerStats.cs" Line="19" Column="14" />
+      <File FileName="Assets/Scripts/MoneyUI.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/TurretBlueprint.cs" Line="18" Column="2" />
+      <File FileName="Assets/Scripts/Turret.cs" Line="162" Column="90" />
+      <File FileName="Assets/Scripts/Bullet.cs" Line="14" Column="34" />
+      <File FileName="Assets/Scripts/Shop.cs" Line="17" Column="3" />
+      <File FileName="Assets/Scripts/SceneFader.cs" Line="16" Column="35" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="38" Column="92" />
+      <File FileName="Assets/Scripts/CompleteLevel.cs" Line="16" Column="53" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="28" Column="62" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="189" Column="1" />
+      <File FileName="Assets/Scripts/Node.cs" Line="39" Column="85" />
+      <File FileName="Assets/Scripts/Music.cs" Line="38" Column="71" />
+      <File FileName="Assets/Scripts/WaveSpawner.cs" Line="30" Column="4" />
+      <File FileName="Assets/Scripts/Wave.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="17" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

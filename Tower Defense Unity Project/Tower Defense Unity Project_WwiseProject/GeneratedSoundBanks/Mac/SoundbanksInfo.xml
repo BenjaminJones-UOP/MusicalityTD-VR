@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>/Users/asmprog/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/UP818988 MusicalityTD/Tower Defense Unity Project/Tower Defense Unity Project_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/asmprog/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/UP818988 MusicalityTD/Tower Defense Unity Project/Tower Defense Unity Project_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/asmprog/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/UP818988 MusicalityTD/Tower Defense Unity Project/Tower Defense Unity Project_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/asmprog/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/UP818988 MusicalityTD/Tower Defense Unity Project/Tower Defense Unity Project_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1356553482" Name="FireLaser" ObjectPath="\Events\Default Work Unit\FireLaser" MaxAttenuation="25.000000"/>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="17302528" Name="Launch" ObjectPath="\Events\Default Work Unit\Launch" MaxAttenuation="25.000000"/>
+				<Event Id="856758723" Name="Level1_2D" ObjectPath="\Events\Default Work Unit\Level1_2D"/>
+				<Event Id="839981168" Name="Level1_3D" ObjectPath="\Events\Default Work Unit\Level1_3D" MaxAttenuation="25.000000"/>
+				<Event Id="2261769837" Name="Level1_Stop" ObjectPath="\Events\Default Work Unit\Level1_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="1005203514" Name="Level2_2D" ObjectPath="\Events\Default Work Unit\Level2_2D"/>
+				<Event Id="1021981077" Name="Level2_3D" ObjectPath="\Events\Default Work Unit\Level2_3D" MaxAttenuation="25.000000"/>
+				<Event Id="1363317408" Name="Level2_Stop" ObjectPath="\Events\Default Work Unit\Level2_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="679636833" Name="MenuMusic" ObjectPath="\Events\Default Work Unit\MenuMusic"/>
+				<Event Id="2136433081" Name="MenuMusicStop" ObjectPath="\Events\Default Work Unit\MenuMusicStop" MaxAttenuation="0.000000"/>
+				<Event Id="2305532690" Name="MissileHit" ObjectPath="\Events\Default Work Unit\MissileHit" MaxAttenuation="25.000000"/>
+				<Event Id="44024399" Name="StandardShoot" ObjectPath="\Events\Default Work Unit\StandardShoot" MaxAttenuation="25.000000"/>
+				<Event Id="3137605894" Name="StopLaser" ObjectPath="\Events\Default Work Unit\StopLaser" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="44741936" Language="SFX">
+					<ShortName>Shoot1_01.wav</ShortName>
+					<Path>SFX/Shoot1_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="56718760" Language="SFX">
+					<ShortName>LaserSound.wav</ShortName>
+					<Path>SFX/LaserSound_F17FB28C.wem</Path>
+				</File>
+				<File Id="70604095" Language="SFX">
+					<ShortName>HomeFootstep4.wav</ShortName>
+					<Path>SFX/HomeFootstep4_1C9C67B2.wem</Path>
+				</File>
+				<File Id="87714889" Language="SFX">
+					<ShortName>Explode1.wav</ShortName>
+					<Path>SFX/Explode1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="132511738" Language="SFX">
+					<ShortName>SyntboiFootstep2.wav</ShortName>
+					<Path>SFX/SyntboiFootstep2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="162599751" Language="SFX">
+					<ShortName>Launch2_04.wav</ShortName>
+					<Path>SFX/Launch2_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="196192626" Language="SFX">
+					<ShortName>LaserSound2.wav</ShortName>
+					<Path>SFX/LaserSound2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="199950747" Language="SFX">
+					<ShortName>Synth boi Lead Synth.wav</ShortName>
+					<Path>SFX/Synth boi Lead Synth_F17FB28C.wem</Path>
+				</File>
+				<File Id="279672897" Language="SFX">
+					<ShortName>Launch2_03.wav</ShortName>
+					<Path>SFX/Launch2_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="359190442" Language="SFX">
+					<ShortName>Shoot1_02.wav</ShortName>
+					<Path>SFX/Shoot1_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="369750366" Language="SFX">
+					<ShortName>Menu Music.wav</ShortName>
+					<Path>SFX/Menu Music_F17FB28C.wem</Path>
+				</File>
+				<File Id="422559833" Language="SFX">
+					<ShortName>Synth boi Drums.wav</ShortName>
+					<Path>SFX/Synth boi Drums_F17FB28C.wem</Path>
+				</File>
+				<File Id="451563005" Language="SFX">
+					<ShortName>SyntboiFootstep5.wav</ShortName>
+					<Path>SFX/SyntboiFootstep5_1C9C67B2.wem</Path>
+				</File>
+				<File Id="466006639" Language="SFX">
+					<ShortName>HomeFootstep1.wav</ShortName>
+					<Path>SFX/HomeFootstep1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="515550257" Language="SFX">
+					<ShortName>Home Synth 2.wav</ShortName>
+					<Path>SFX/Home Synth 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="566237599" Language="SFX">
+					<ShortName>SyntboiFootstep3.wav</ShortName>
+					<Path>SFX/SyntboiFootstep3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="603345669" Language="SFX">
+					<ShortName>Home Synth 4.wav</ShortName>
+					<Path>SFX/Home Synth 4_F17FB28C.wem</Path>
+				</File>
+				<File Id="607865655" Language="SFX">
+					<ShortName>Home Synth 1.wav</ShortName>
+					<Path>SFX/Home Synth 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="625773335" Language="SFX">
+					<ShortName>Explode2.wav</ShortName>
+					<Path>SFX/Explode2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="644913552" Language="SFX">
+					<ShortName>Launch1.wav</ShortName>
+					<Path>SFX/Launch1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="650852973" Language="SFX">
+					<ShortName>SyntboiFootstep1.wav</ShortName>
+					<Path>SFX/SyntboiFootstep1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="662204087" Language="SFX">
+					<ShortName>HomeFootstep2.wav</ShortName>
+					<Path>SFX/HomeFootstep2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="670032598" Language="SFX">
+					<ShortName>Home Drums.wav</ShortName>
+					<Path>SFX/Home Drums_F17FB28C.wem</Path>
+				</File>
+				<File Id="674720579" Language="SFX">
+					<ShortName>Synth boi Rhythm Synth.wav</ShortName>
+					<Path>SFX/Synth boi Rhythm Synth_F17FB28C.wem</Path>
+				</File>
+				<File Id="684432545" Language="SFX">
+					<ShortName>Shoot2_01.wav</ShortName>
+					<Path>SFX/Shoot2_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="792039956" Language="SFX">
+					<ShortName>Home Synth 3.wav</ShortName>
+					<Path>SFX/Home Synth 3_F17FB28C.wem</Path>
+				</File>
+				<File Id="860187139" Language="SFX">
+					<ShortName>Launch2_01.wav</ShortName>
+					<Path>SFX/Launch2_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="926107570" Language="SFX">
+					<ShortName>Shoot2_02.wav</ShortName>
+					<Path>SFX/Shoot2_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="959538072" Language="SFX">
+					<ShortName>Synth boi Bass Synth.wav</ShortName>
+					<Path>SFX/Synth boi Bass Synth_F17FB28C.wem</Path>
+				</File>
+				<File Id="980100951" Language="SFX">
+					<ShortName>Launch2_02.wav</ShortName>
+					<Path>SFX/Launch2_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1014650512" Language="SFX">
+					<ShortName>HomeFootstep3.wav</ShortName>
+					<Path>SFX/HomeFootstep3_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1036512583" Language="SFX">
+					<ShortName>Shoot1_03.wav</ShortName>
+					<Path>SFX/Shoot1_03_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

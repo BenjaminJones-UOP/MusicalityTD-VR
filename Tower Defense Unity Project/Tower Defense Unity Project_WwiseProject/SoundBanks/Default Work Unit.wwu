@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF7895AC-78BF-4A8B-AF0D-646E1030C7AB}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{FF7895AC-78BF-4A8B-AF0D-646E1030C7AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{B15D4867-23B1-48E0-AB73-D8C30B38C0DD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Level2_Stop" ID="{AF1477FF-DE18-40E6-9728-4F1711035472}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level1_3D" ID="{1FAB697A-FBB5-4374-B746-F31B71E0DB68}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MenuMusic" ID="{A13A7A9C-CD1F-4628-B83F-E627F98A3D39}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MenuMusicStop" ID="{2709FA00-B29F-4675-82DA-38F2AE1B56FF}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MissileHit" ID="{E5929A99-5646-4850-AF20-8B0054693052}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StandardShoot" ID="{2CE0CC9C-C373-49A8-B503-033B47CE6733}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="FireLaser" ID="{2193E3A7-18B8-49C8-9587-578977DA2376}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Launch" ID="{64F56F3F-1A06-4A03-9B40-5285E2BCD77E}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level1_Stop" ID="{C73F97FB-53C3-4BE0-A26D-0BAFB4138149}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps" ID="{A01DB4C8-C391-4D23-A79A-863F487831E2}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level2_2D" ID="{7FE12952-88A3-4DFD-B164-EE7D6E71FBCE}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level1_2D" ID="{B77410CF-9D5F-4E08-B424-E3A150D3F122}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopLaser" ID="{7404F30C-C566-4F25-AB5E-0F81EF5F2600}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level2_3D" ID="{3091EF68-9081-4F3D-AE61-11ADFD1E7C79}" WorkUnitID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

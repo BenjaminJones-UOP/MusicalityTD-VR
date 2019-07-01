@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1B52E945-120E-48C1-8C5D-1DB329D04CDF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Level2_2D" ID="{7FE12952-88A3-4DFD-B164-EE7D6E71FBCE}">
+					<ChildrenList>
+						<Action Name="" ID="{CFAC839C-57B5-4A25-A5EB-5A59FA8B6198}" ShortID="968075417">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Home_2D" ID="{0A5581B2-56CE-4747-B564-A2B73659AC16}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level2_3D" ID="{3091EF68-9081-4F3D-AE61-11ADFD1E7C79}">
+					<ChildrenList>
+						<Action Name="" ID="{CC14276C-5506-49A0-9183-50CFB357EFB4}" ShortID="656261031">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Home_3D" ID="{9D5A956D-1DFD-4FA2-8094-F6B6BEA32695}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level1_2D" ID="{B77410CF-9D5F-4E08-B424-E3A150D3F122}">
+					<ChildrenList>
+						<Action Name="" ID="{1B7A698D-8385-45A6-877E-E0C61CAF23E3}" ShortID="488448969">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Synthboi_2D" ID="{D59F857D-2EAA-4734-9CC9-113EC97EA8ED}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level1_3D" ID="{1FAB697A-FBB5-4374-B746-F31B71E0DB68}">
+					<ChildrenList>
+						<Action Name="" ID="{D0BA947A-1D4A-4245-A55E-844351DBFA2A}" ShortID="148691430">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Synthboi_3D" ID="{1931F8B9-F14B-4DD3-A99F-3D777368ED5A}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level1_Stop" ID="{C73F97FB-53C3-4BE0-A26D-0BAFB4138149}">
+					<ChildrenList>
+						<Action Name="" ID="{EBBF7A1A-BF6F-48DF-B17D-63BD12CE7C61}" ShortID="953546218">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Synthboi_2D" ID="{D59F857D-2EAA-4734-9CC9-113EC97EA8ED}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{92D8AB51-CBA0-4C33-B05B-49088A17DD9B}" ShortID="715656168">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Synthboi_3D" ID="{1931F8B9-F14B-4DD3-A99F-3D777368ED5A}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level2_Stop" ID="{AF1477FF-DE18-40E6-9728-4F1711035472}">
+					<ChildrenList>
+						<Action Name="" ID="{EC2A0B62-976A-4936-9270-9359C8D20F0F}" ShortID="864599787">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Home_2D" ID="{0A5581B2-56CE-4747-B564-A2B73659AC16}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4C10D5D7-9788-46CE-85D9-4FC0E163603B}" ShortID="804878776">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Home_3D" ID="{9D5A956D-1DFD-4FA2-8094-F6B6BEA32695}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuMusic" ID="{A13A7A9C-CD1F-4628-B83F-E627F98A3D39}">
+					<ChildrenList>
+						<Action Name="" ID="{234CA422-26FA-4735-988E-F0D5ADDE4D09}" ShortID="780769844">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu Music" ID="{2569973A-4E26-489C-9284-81D9138A23CD}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MenuMusicStop" ID="{2709FA00-B29F-4675-82DA-38F2AE1B56FF}">
+					<ChildrenList>
+						<Action Name="" ID="{00DD5AA2-E174-4C9C-945C-30EB9B8CE032}" ShortID="181170759">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu Music" ID="{2569973A-4E26-489C-9284-81D9138A23CD}" WorkUnitID="{D9C4916D-363A-4FA1-90DE-0C3F9C78F8B2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{A01DB4C8-C391-4D23-A79A-863F487831E2}">
+					<ChildrenList>
+						<Action Name="" ID="{849CA32A-830D-4966-9A90-CF21EB616984}" ShortID="684054309">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HomeFootsteps" ID="{C77E0E3F-583C-47F3-B6FE-619EEAEC3EA0}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{39149FBE-4ADD-4826-ADBA-F24F15439BAE}" ShortID="273530374">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Synthboi Footsteps" ID="{C2FDEDBE-CBB7-42D6-8F80-15CD9C16C519}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FireLaser" ID="{2193E3A7-18B8-49C8-9587-578977DA2376}">
+					<ChildrenList>
+						<Action Name="" ID="{4BEB2A16-24C1-41B6-972D-B9A80E00F085}" ShortID="255930559">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserSFX01" ID="{D7E66548-088E-4214-9499-3C9152869437}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2A8F33AA-B0BB-447C-B4E4-AE0F47EC8FD0}" ShortID="469170286">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserFX02" ID="{2A6BEDE0-585C-4849-A32B-089A72F1D136}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopLaser" ID="{7404F30C-C566-4F25-AB5E-0F81EF5F2600}">
+					<ChildrenList>
+						<Action Name="" ID="{6CDE5184-886D-4165-8A5E-A2D7C91730A0}" ShortID="937185855">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserSFX01" ID="{D7E66548-088E-4214-9499-3C9152869437}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E9A06DD1-64F4-4A39-AB96-D50FAA4D68D1}" ShortID="794333480">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserFX02" ID="{2A6BEDE0-585C-4849-A32B-089A72F1D136}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StandardShoot" ID="{2CE0CC9C-C373-49A8-B503-033B47CE6733}">
+					<ChildrenList>
+						<Action Name="" ID="{E0B0A019-D5B2-484B-AA49-F01D36EB2ABB}" ShortID="1046647810">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Standard1" ID="{617101B9-48A2-4A9A-9629-90A925F3D198}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E519A452-F9A3-4D34-B282-5BC69C35D3A1}" ShortID="391547569">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Standard2" ID="{549FB579-698B-4FF8-A594-A922626DCF8D}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MissileHit" ID="{E5929A99-5646-4850-AF20-8B0054693052}">
+					<ChildrenList>
+						<Action Name="" ID="{A3030937-9F1D-4044-B07B-71B782A67C15}" ShortID="722770576">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion2" ID="{14A43275-7E19-4176-85A1-CC50A87AEBDE}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{85ECD2CA-183A-41B9-B04A-4301A011E8A5}" ShortID="129957775">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion1" ID="{872BB29D-00D4-4F68-8650-7312A92CC1CD}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Launch" ID="{64F56F3F-1A06-4A03-9B40-5285E2BCD77E}">
+					<ChildrenList>
+						<Action Name="" ID="{33B546E6-6C97-47FF-8922-AE243FE4EB97}" ShortID="1065959468">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Launch1" ID="{432695FA-1F8C-4173-8D6F-8AB1F0A4DC57}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A8D83EF9-E1A0-4E7D-A848-FECF0E73ED0B}" ShortID="394672143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Launch2" ID="{BC63ADD9-C672-4D6C-804A-BF7A1F617885}" WorkUnitID="{0C9A65D6-0950-4E7A-96AE-BEF4DD9E15E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

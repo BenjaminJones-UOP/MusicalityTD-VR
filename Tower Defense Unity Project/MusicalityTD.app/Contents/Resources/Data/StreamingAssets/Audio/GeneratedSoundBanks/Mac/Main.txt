@@ -1,0 +1,77 @@
+Event	ID	Name			Wwise Object Path	Notes
+	17302528	Launch			\Default Work Unit\Launch	
+	44024399	StandardShoot			\Default Work Unit\StandardShoot	
+	679636833	MenuMusic			\Default Work Unit\MenuMusic	
+	839981168	Level1_3D			\Default Work Unit\Level1_3D	
+	856758723	Level1_2D			\Default Work Unit\Level1_2D	
+	1005203514	Level2_2D			\Default Work Unit\Level2_2D	
+	1021981077	Level2_3D			\Default Work Unit\Level2_3D	
+	1356553482	FireLaser			\Default Work Unit\FireLaser	
+	1363317408	Level2_Stop			\Default Work Unit\Level2_Stop	
+	2136433081	MenuMusicStop			\Default Work Unit\MenuMusicStop	
+	2261769837	Level1_Stop			\Default Work Unit\Level1_Stop	
+	2305532690	MissileHit			\Default Work Unit\MissileHit	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3137605894	StopLaser			\Default Work Unit\StopLaser	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2051275648	LevelVol			\Default Work Unit\LevelVol	
+
+State	ID	Name	State Group			Notes
+	0	None	LevelVol			
+	2678230381	Level2	LevelVol			
+	2678230382	Level1	LevelVol			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	61847021	Level1	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\Standard2		
+	217464204	Level2	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\LaserSFX01		
+	228329739	Level2	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\Synthboi Footsteps		
+	465787224	Level2	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\Standard1		
+	500519392	Level1	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\Launch2		
+	504117798	Level1	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\HomeFootsteps		
+	547859367	Level1	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\Explosion2		
+	760489793	Level2	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\Launch1		
+	792193995	Level1	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\LaserFX02		
+	882065888	Level2	LevelVol	\Actor-Mixer Hierarchy\Default Work Unit\Explosion1		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	358949134	Num_Enemies			\Default Work Unit\Num_Enemies	
+	615702285	LaserVol			\Default Work Unit\LaserVol	
+	1299466857	StandardVol			\Default Work Unit\StandardVol	
+	1871851658	LaserShootVol			\Default Work Unit\LaserShootVol	
+	2878237506	MissileVol			\Default Work Unit\MissileVol	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	44741936	Shoot1	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Shoot1_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Standard1\Shoot1		996284
+	56718760	LaserSFX01	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\LaserSound_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\LaserSFX01		651468
+	70604095	HomeFootstep4	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\HomeFootstep4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\HomeFootsteps\HomeFootstep4		320872
+	87714889	Explosion1	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Explode1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosion1		488636
+	132511738	Synthboi Footstep2	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\SyntboiFootstep2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Synthboi Footsteps\Synthboi Footstep2		320872
+	162599751	Launch2_04	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Launch2_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Launch2\Launch2_04		747248
+	196192626	LaserFX02	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\LaserSound2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\LaserFX02		996284
+	199950747	Synth boi Lead Synth	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Synth boi Lead Synth_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Synthboi_3D\Synthboi\Synth boi Lead Synth		7816020
+	279672897	Launch2_03	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Launch2_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Launch2\Launch2_03		747248
+	359190442	Shoot _02	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Shoot1_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Standard1\Shoot _02		996284
+	369750366	Menu	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Menu Music_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Menu Music\Menu\Menu		3528144
+	422559833	Synth boi Drums	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Synth boi Drums_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Synthboi_2D\Synthboi_2D\Synth boi Drums		7816020
+	451563005	Synthboi Footstep5	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\SyntboiFootstep5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Synthboi Footsteps\Synthboi Footstep5		320872
+	466006639	HomeFootstep1	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\HomeFootstep1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\HomeFootsteps\HomeFootstep1		320872
+	515550257	Home Bass	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Home Synth 2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Home_3D\Home_3D\Home Bass		7906120
+	566237599	Synthboi Footstep3	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\SyntboiFootstep3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Synthboi Footsteps\Synthboi Footstep3		320872
+	603345669	Home Rhythm	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Home Synth 4_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Home_2D\Home_2D\Home Rhythm		7906120
+	607865655	Home Main Synth	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Home Synth 1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Home_2D\Home_2D\Home Main Synth		7906120
+	625773335	Explosion2	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Explode2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosion2		996284
+	644913552	Launch1	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Launch1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Launch1		488636
+	650852973	Synthboi Footstep1	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\SyntboiFootstep1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Synthboi Footsteps\Synthboi Footstep1		320872
+	662204087	HomeFootstep2	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\HomeFootstep2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\HomeFootsteps\HomeFootstep2		320872
+	670032598	Home Drums	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Home Drums_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Home_3D\Home_3D\Home Drums		7906120
+	674720579	Synth boi Rhythm Synth	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Synth boi Rhythm Synth_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Synthboi_3D\Synthboi\Synth boi Rhythm Synth		7816020
+	684432545	Shoot1	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Shoot2_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Standard2\Shoot1		996284
+	792039956	Home Lead	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Home Synth 3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Home_3D\Home_3D\Home Lead		7906120
+	860187139	Launch2_01	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Launch2_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Launch2\Launch2_01		747248
+	926107570	Shoot2	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Shoot2_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Standard2\Shoot2		996284
+	959538072	Synth boi Bass	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Synth boi Bass Synth_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Synthboi_3D\Synthboi\Synth boi Bass		7816020
+	980100951	Launch2_02	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Launch2_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Launch2\Launch2_02		747248
+	1014650512	HomeFootstep3	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\HomeFootstep3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\HomeFootsteps\HomeFootstep3		320872
+	1036512583	Shoot _03	Y:\Desktop\Tower-Defense-Tutorial-master\Tower Defense Unity Project\Tower Defense Unity Project_WwiseProject\.cache\Mac\SFX\Shoot1_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Standard1\Shoot _03		996284
+

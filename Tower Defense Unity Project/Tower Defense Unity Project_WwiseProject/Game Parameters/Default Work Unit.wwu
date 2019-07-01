@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{33F5D818-5193-42EC-A3FB-A96480EF3385}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{33F5D818-5193-42EC-A3FB-A96480EF3385}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Num_Enemies" ID="{912A4888-2591-43B8-90C9-6D0EE1E73537}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="4"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="3"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="6"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MissileVol" ID="{6B02E875-D20B-4995-81C1-8DE5F204B781}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="30"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="15"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="StandardVol" ID="{A20A95AD-1257-4B71-9E8B-3B3C621F06AA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="LaserVol" ID="{449B2E24-8E99-49BE-B288-10BF1E9A96B0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="LaserShootVol" ID="{C2F766C2-785D-4391-A6BD-2F3F141DE94F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
